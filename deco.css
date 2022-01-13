@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  flex: 1;
+  background: url("My%20Post%20(3).jpg");
+}
+
+.bigbox {
+  background: #306eff;
+  width: 500px;
+  margin: 180px auto;
+  height: 200px;
+  position: relative;
+  padding: 50px;
+  padding-bottom: 50px;
+  border-radius: 5%;
+}
+
+.badge {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #ffdf74;
+  color: #306eff;
+  padding: 30px 10px;
+  font-family: cursive;
+  font-weight: 800;
+  /*margin: -60px auto;*/
+  position: absolute;
+  top: -50px;
+  left: 40%;
+}
+
+.clock {
+  background: #ffdf74;
+  text-align: center;
+  font-size: 50px;
+  font-family: Orbitron;
+  height: 80px;
+  padding-top: 5px;
+  color: #306eff;
+  border-radius: 5px;
+}
+.small {
+  background: #ffdf74;
+  text-align: center;
+  font-size: 25px;
+  font-family: Orbitron;
+  height: 40px;
+  padding-top: 5px;
+  color: #306eff;
+  border-radius: 5px;
+}
